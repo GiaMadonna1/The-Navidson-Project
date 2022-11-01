@@ -1,0 +1,42 @@
+
+
+
+:root {
+    --dark-forest: black;
+    --bold-blue: #181DE7;
+    --bloody-red: #7C0609;
+}
+
+header {
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin-bottom: 0%;
+}
+header h2 {
+    margin-top: 0;
+    color: var(--bloody-red);
+    font-family: 'Lucindatypewriter', monospace;
+    font-size: medium;
+}
+body {
+    background-color: var(--dark-forest);
+    font-family:'Lucinda Console', monospace;
+    text-align: center;
+    margin-top: 0;
+    color: var(--bold-blue);
+
+}
+
+main {
+    margin-top: 25%;
+}
+
+footer {
+    margin-top: 50%;
+}
