@@ -1,10 +1,19 @@
-document.addEventListener("click", startTheGame);
+var timer;
+var timeE = document.getElementById('Timer');
 
+function countdownTimer(){
+    var sec = 30;
+    timer = setInterval (() => {
+        timeE.innerHTML = '00:'+ sec;
+        sec --;
+    }, 1000)
+}
+setInterval(countdownTimer, 1000);
 
-function startTheGame(mouseEvent) {
-    let btn = document.getElementById('#startbtn');
-    btn.onclick = createTabMaze()
+document.addEventListener('click', startTheGame)
 
+ function startTheGame(mouseEvent) {
+    document.querySelector('#startbtn').style.display = "none"
 }
 
 function createTabMaze(){
