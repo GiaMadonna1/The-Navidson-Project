@@ -38,6 +38,25 @@ header h2 {
     justify-content: center;
 }
 
+table td {
+    border: 2px red solid;
+}
+.cellStyle {
+    width: 5em;
+    height: 3.9em;
+    background-color: white;
+    padding: 0;
+    border-spacing: 0;
+    border-collapse: separate;
+}
+
+
+#00 {
+    border-right: none;
+}
+#01 {
+    border-left: none;
+}
 
 body {
     background-color: var(--dark-forest);
