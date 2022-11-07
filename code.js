@@ -17,6 +17,9 @@ function createTabMaze(){
                 let cell = document.createElement('td');
                 cell.setAttribute('id', 'cell'+`${i}${j}`)
                 cell.setAttribute('class', "cellStyle")
+                cell.ondblclick = (e) => {
+                    cell.style.backgroundColor = '#B84437'
+                }
                 console.log(cell)
                 row.appendChild(cell)
             }
@@ -28,12 +31,7 @@ function createTabMaze(){
         
 }
 
-function completeTheMaze(mouseEvent, createTabMaze){
-    document.getElementsByClassName('.cellStyle').addEventListener('dblclick')
 
-        if ('click' === true) {
-            document.getElementsByClassName('.cellStyle').style.backgroundColor = 'red'
-        }
-        return;
-}
+
+
 
