@@ -113,6 +113,7 @@ table td {
 #cell66 {
     border-top: 0;
     border-right: 0;
+    border-left: 0;
     background-color: thistle;
 }
 
@@ -407,6 +408,186 @@ table td {
     border-top: 0;
     background-color: aqua;
 }
+
+#cell65 {
+    border-right: 0;
+    border-top:0;
+    border-bottom: 0;
+}
+
+#cell55 {
+    border-bottom: 0;
+    border-left: 0;
+}
+
+#cell54, #cell53, #cell52, #cell51 {
+    border-right: 0;
+    border-left: 0;
+}
+
+#cell50 {
+    border-right: 0;
+    border-top: 0;
+}
+
+#cell40 {
+    border-bottom: 0;
+    border-top: 0;
+}
+
+#cell30 {
+    border-bottom: 0;
+}
+
+#cell75 {
+    border-top: 0;
+    border-right: 0;
+}
+
+#cell76 {
+    border-left: 0;
+    border-bottom: 0;
+}
+
+#cell86, #cell96 {
+    border-top: 0;
+    border-bottom: 0;
+}
+
+#cell106 {
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+}
+
+#cell107 {
+    border-left: 0;
+    border-top: 0;
+}
+
+#cell97, #cell98 {
+    border-top: 0;
+    border-bottom: 0;
+}
+
+#cell87 {
+    border-bottom: 0;
+    border-right: 0;
+}
+
+#cell88 {
+    border-left: 0;
+    border-bottom: 0;
+}
+
+#cell108 {
+    border-top: 0;
+    border-right: 0;
+}
+
+#cell109 {
+    border-left: 0;
+}
+
+#cell105, #cell104, #cell103, #cell102, #cell101 {
+    border-right: 0;
+    border-left: 0;
+}
+
+#cell100 {
+    border-right: 0;
+    border-top: 0;
+}
+
+#cell90 {
+    border-bottom: 0;
+    border-top: 0;
+}
+
+#cell80 {
+    border-bottom: 0;
+    border-right: 0;
+}
+
+#cell81 {
+    border-left: 0;
+    border-bottom: 0;
+    border-top: 0;
+}
+
+#cell91 {
+    border-top: 0;
+}
+
+#cell71 {
+    border-bottom: 0;
+    border-top: 0;
+}
+
+#cell61 {
+    border-right: 0;
+    border-left: 0;
+    border-bottom: 0;
+}
+
+#cell60 {
+    border-right: 0;
+    border-bottom: 0;
+}
+
+#cell70 {
+    border-top: 0;
+}
+
+#cell62, #cell63 {
+    border-left: 0;
+    border-right: 0;
+}
+
+#cell64 {
+    border-left: 0;
+    border-bottom: 0;
+}
+
+#cell74 {
+    border-top: 0;
+    border-left: 0;
+}
+
+#cell73 {
+    border-right: 0;
+    border-left: 0;
+}
+
+#cell72 {
+    border-right: 0;
+    border-bottom: 0;
+}
+
+#cell82 {
+    border-top: 0;
+    border-right: 0;
+}
+
+#cell83, #cell84, #cell94, #cell93 {
+    border-left: 0;
+    border-right: 0;
+}
+
+#cell85 {
+    border-left: 0;
+    border-bottom: 0;
+}
+
+#cell95 {
+    border-top: 0;
+    border-left: 0;
+}
+
+#cell92 {
+    border-right: 0;
+}
+
 
 
 body {
