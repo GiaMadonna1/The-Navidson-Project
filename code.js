@@ -1,17 +1,3 @@
-var timer;
-let timeE = document.getElementById('Timer');
-
- function countdownTimer(){     
-    let sec = 30;
-     timer = setInterval (() => {
-        timeE.innerHTML = '00:'+ sec;
-        sec --;
-    }, 1000)
-
-    if (sec === 0){
-       clearInterval()
-    }
- }
 
 document.addEventListener('click', startTheGame)
 
@@ -40,5 +26,14 @@ function createTabMaze(){
         document.body.appendChild(mazeLayout)
 
         
+}
+
+function completeTheMaze(mouseEvent, createTabMaze){
+    document.getElementsByClassName('.cellStyle').addEventListener('dblclick')
+
+        if ('click' === true) {
+            document.getElementsByClassName('.cellStyle').style.backgroundColor = 'red'
+        }
+        return;
 }
 
