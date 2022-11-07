@@ -39,25 +39,126 @@ header h2 {
 }
 
 table td {
-    border: 2px red solid;
+    border: 3px black solid;
 }
 .cellStyle {
     width: 5em;
     height: 3.9em;
-    background-color: white;
+    background-color: var(--bold-blue);
     padding: 0;
     border-spacing: 0;
     border-collapse: separate;
 }
 
-
-#00 {
-    border-right: none;
-}
-#01 {
-    border-left: none;
+#cell00 {
+    border-right: 0;
+    border-bottom: 0;
+    background-color: red;
 }
 
+#cell01 {
+    border-left: 0;
+}
+
+#cell10 {
+    border-top: 0;
+    border-bottom: 0;
+}
+
+#cell20 {
+    border-top: 0;
+    border-right: 0;
+}
+
+#cell21 {
+    border-left: 0;
+    border-bottom: 0;
+}
+
+#cell31 {
+    border-top: 0;
+    border-bottom: 0;
+}
+
+#cell41 {
+    border-top: 0;
+    border-right: 0;
+}
+
+#cell42 {
+    border-left: 0;
+    border-right: 0;
+}
+
+#cell43 {
+    border-left: 0;
+    border-right: 0;
+}
+
+#cell44 {
+    border-left: 0;
+    border-right: 0;
+}
+
+#cell45 {
+    border-left: 0;
+    border-right: 0;
+}
+
+#cell46 {
+    border-left: 0;
+    border-bottom: 0;
+}
+
+#cell56 {
+    border-top: 0;
+    border-bottom: 0;
+}
+
+#cell66 {
+    border-top: 0;
+    border-right: 0;
+}
+
+#cell67 {
+    border-left: 0;
+    border-bottom: 0;
+}
+
+#cell77 {
+    border-top: 0;
+    border-right: 0;
+}
+
+#cell78 {
+    border-left: 0;
+    border-right: 0;
+}
+
+#cell79 {
+    border-left: 0;
+    border-bottom: 0;
+}
+
+#cell89 {
+    border-top: 0;
+    border-bottom: 0;
+}
+
+#cell99 {
+    border-top: 0;
+    border-right:0;
+}
+
+#cell910 {
+    border-left: 0;
+    border-bottom: 0;
+}
+
+#cell1010 {
+    border-top: 0;
+    background-color: var(--bloody-red);
+}
 body {
     background-color: var(--dark-forest);
     font-family:'Lucinda Console', monospace;

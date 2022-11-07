@@ -29,7 +29,7 @@ function createTabMaze(){
             
             for (j = colIndex; j <= 10; j++){
                 let cell = document.createElement('td');
-                cell.setAttribute('id', `${i}${j}`)
+                cell.setAttribute('id', 'cell'+`${i}${j}`)
                 cell.setAttribute('class', "cellStyle")
                 console.log(cell)
                 row.appendChild(cell)
@@ -42,10 +42,3 @@ function createTabMaze(){
         
 }
 
-cell.addEventListener('dblclick', Dubb)
-
-function Dubb (mouseEvent, createTabMaze){
-   if  (cell === ondblclick) {
-    cell.style.backgroundColor = 'yellow'
-   }
-}
