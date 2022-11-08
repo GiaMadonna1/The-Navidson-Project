@@ -7,4 +7,4 @@ Special shout out to Corey and Tomas for helping with roadblocks and getting thi
 
 
 
-Future renditions could include making multiple levels that are harder, but first I'd need an algorithim because even 100 squares is pretty time consuming. In the peak of my CSS coding, the file was at 600 lines before refractoring. 
+Future renditions could include making multiple levels that are harder, but first I'd need an algorithim because even 100 squares is pretty time consuming. In the peak of my CSS coding, the file was at 600 lines before refractoring. I would also add in a win game functionality that actually works instead of breaking my code. 
