@@ -18,7 +18,7 @@ function createTabMaze(){
                 cell.setAttribute('id', 'cell'+`${i}${j}`)
                 cell.setAttribute('class', "cellStyle")
                 cell.onclick = (e) => {
-                    cell.style.backgroundColor = '#B84437'
+                    cell.style.backgroundColor = '#471f1c'
                 }
                 console.log(cell)
                 row.appendChild(cell)
@@ -32,12 +32,4 @@ function createTabMaze(){
 }
 
 
-
-function winTheGame() {
-    let winningSequence = ['#cell00', '#cell10', '#cell20', '#cell21', '#cell31', '#cell41', '#cell42', '#cell43', '#cell44', '#cell45', '#cell46', '#cell56', '#cell66', '#cell67', '#cell77', '#cell78', '#cell79', '#cell89', '#cell99', '#cell910', "cell1010"]
-        if (winningSequence.style.backgroundColor = '#B84437'){
-            createTabMaze.remove()
-
-        }
-}
 
