@@ -3,7 +3,7 @@ Take Two at the project.
 This is a one level maze puzzle game inspired by the book, "House of Leaves". Directions are pretty simple. You must start in the upper left hand corner (indicated by a red square) and end in the bottom right corner (indicated by another red square). The only objective is to choose the proper route, and make it to the end. Good Luck, Have Fun. 
 
 
-Special shout out to Corey and Tomas for helping with roadblocks and getting this show back on the road. 
+Special shout out to Cody and Tomas for helping with roadblocks and getting this show back on the road. 
 
 
 
